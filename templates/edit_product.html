@@ -30,7 +30,7 @@
         </div>
         <div>
             <label for="type_produit">{{ form.type_produit.label }}</label>
-            <select name="type_produit">
+            <select name="type_produit" id="type_produit">
                 <option value="Fruits et légumes" {% if form.type_produit.data == 'Fruits et légumes' %}selected{% endif %}>Fruits et légumes</option>
                 <option value="Produits laitiers" {% if form.type_produit.data == 'Produits laitiers' %}selected{% endif %}>Produits laitiers</option>
                 <option value="Viandes et protéines" {% if form.type_produit.data == 'Viandes et protéines' %}selected{% endif %}>Viandes et protéines</option>
